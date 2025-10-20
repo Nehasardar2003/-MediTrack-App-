@@ -324,39 +324,3 @@ Need help? Here's how to reach us:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 </div>
-
-## 🌟 Show Your Support
-
-If this project helped you manage your medicines better, please give it a ⭐️!
-
-<div align="center">
-
-**Made with ❤️ and ☕ by Nikhil**
-
-</div>
-
----
-
-<div align="center">
-
-### ⚠️ Important Disclaimer
-
-**MediTrack-App is a tracking tool only.** 
-
-This application helps you organize and track your medicines but should never replace professional medical advice. Always consult healthcare professionals for medical guidance, proper medication usage, and disposal of expired medicines.
-
-</div>
-
----
-
-<div align="center">
-
-### 🙏 Acknowledgments
-
-- Flask team for the amazing web framework
-- The open-source community for inspiration
-- All contributors who help improve this project
-
-**[⬆ Back to Top](#-meditrack-app)**
-
-</div>
