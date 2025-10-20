@@ -323,15 +323,6 @@ Need help? Here's how to reach us:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
-
-<div align="center">
-
-**Nikhil Sharma**
-
-[![GitHub](https://img.shields.io/badge/GitHub-niks1503-black?style=flat&logo=github)](https://github.com/niks1503)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-blue?style=flat&logo=google-chrome)](https://github.com/niks1503)
-
 </div>
 
 ## 🌟 Show Your Support
