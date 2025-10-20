@@ -285,40 +285,6 @@ Future enhancements we're planning:
 - [ ] 📱 Mobile app (React Native)
 - [ ] 🔔 Push notifications
 
-## ❓ FAQ
-
-<details>
-<summary><b>Is my data secure?</b></summary>
-<br>
-Yes! All data is stored locally on your machine in an SQLite database. Nothing is sent to external servers.
-</details>
-
-<details>
-<summary><b>Can I access this from multiple devices?</b></summary>
-<br>
-Currently, the app runs locally. However, you can deploy it to a cloud server for multi-device access.
-</details>
-
-<details>
-<summary><b>What happens if I delete a medicine by mistake?</b></summary>
-<br>
-Currently, deletion is permanent. We recommend backing up your database.db file regularly. A trash/undo feature is planned for future releases.
-</details>
-
-<details>
-<summary><b>Can I customize the alert thresholds?</b></summary>
-<br>
-Not yet, but this is a planned feature! Currently, alerts trigger at 30, 7, and 0 days before expiry.
-</details>
-
-## 📞 Support
-
-Need help? Here's how to reach us:
-
-- 📧 **Email:** Open an issue on GitHub
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/niks1503/MediTrack-App/discussions)
-- 🐛 **Bug Reports:** [GitHub Issues](https://github.com/niks1503/MediTrack-App/issues)
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
