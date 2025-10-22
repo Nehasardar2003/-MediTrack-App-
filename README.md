@@ -54,7 +54,6 @@ A comprehensive Flask-based web application for tracking medicine inventory, exp
 ### Installation
 
 1. **Clone the repository**
-```bash
 git clone https://github.com/yourusername/medicine-expiry-tracker.git
 cd medicine-expiry-tracker
 
