@@ -216,20 +216,9 @@ python app.py --port 5001
 python reset_with_sample.py
 ```
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👥 Authors
 
 - Neha Sardar - [GitHub Profile](https://github.com/Nehasardar2003)
-
-## 🙏 Acknowledgments
-
-- Flask community for excellent documentation
-- Bootstrap for responsive UI components
-- Font Awesome for icons
-- SQLAlchemy for ORM capabilities
 
 ## 📞 Support
 
