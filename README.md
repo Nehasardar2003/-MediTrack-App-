@@ -216,21 +216,13 @@ python app.py --port 5001
 python reset_with_sample.py
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👥 Authors
 
-- Your Name - [GitHub Profile](https://github.com/yourusername)
+- Neha Sardar - [GitHub Profile](https://github.com/Nehasardar2003)
 
 ## 🙏 Acknowledgments
 
@@ -241,7 +233,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-If you have any questions or issues, please open an issue on GitHub or contact your-email@example.com
+If you have any questions or issues, please open an issue on GitHub or contact nehasardar64@gmail.com
 
 ---
 
