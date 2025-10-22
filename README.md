@@ -54,33 +54,50 @@ A comprehensive Flask-based web application for tracking medicine inventory, exp
 ### Installation
 
 1. **Clone the repository**
+```bash
 git clone https://github.com/yourusername/medicine-expiry-tracker.git
 cd medicine-expiry-tracker
+```
 
 2. **Create virtual environment (Recommended)**
+```bash
 python -m venv venv
-# On Windows:
+```
+
+3. **Activate virtual environment**
+
+On Windows:
+```bash
 venv\Scripts\activate
-# On Mac/Linux:
+```
+
+On Mac/Linux:
+```bash
 source venv/bin/activate
+```
 
-3. **Install dependencies**
+4. **Install dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-4. **Run the application**
+5. **Run the application**
+```bash
 python app.py
+```
 
-5. **Access the application**
-Open your browser and navigate to http://localhost:5000
+6. **Access the application**
 
-First Time Setup
-Register a new account
+Open your browser and navigate to `http://localhost:5000`
 
-Login with your credentials
+### First Time Setup
+1. Register a new account
+2. Login with your credentials
+3. Start adding medicines to your inventory
 
-Start adding medicines to your inventory
+## 📁 Project Structure
 
-### Project Structure
+```
 medicine-expiry-tracker/
 ├── app.py                 # Main Flask application
 ├── database.py           # Database configuration
@@ -101,147 +118,131 @@ medicine-expiry-tracker/
 └── static/              # Static files
     ├── style.css
     └── script.js
+```
 
-🗄️ Database Schema
+## 🗄️ Database Schema
+
 ### Entities:
-User: User accounts and authentication
+- **User**: User accounts and authentication
+- **Medicine**: Medicine inventory with categories
+- **Transaction**: Stock movement history
+- **Sale**: Sales records with customer details
+- **ExpiredMedicine**: Automatic expired medicine tracking
 
-Medicine: Medicine inventory with categories
+## 🛠️ Technology Stack
 
-Transaction: Stock movement history
+- **Backend**: Python, Flask, SQLAlchemy
+- **Database**: SQLite
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap 5
+- **Authentication**: Flask-Login
+- **Security**: Werkzeug password hashing
 
-Sale: Sales records with customer details
+## 🔧 Configuration
 
-ExpiredMedicine: Automatic expired medicine tracking
+### Environment Variables
+Create a `.env` file for configuration:
 
-🛠️ Technology Stack
-Backend: Python, Flask, SQLAlchemy
-
-Database: SQLite
-
-Frontend: HTML5, CSS3, JavaScript, Bootstrap 5
-
-Authentication: Flask-Login
-
-Security: Werkzeug password hashing
-
-🔧 Configuration
-Environment Variables
-Create a .env file for configuration:
-
-env
+```env
 SECRET_KEY=your-secret-key-here
 DATABASE_URI=sqlite:///medicine_tracker.db
-Default Categories
-Tablet
+```
 
-Syrup
+### Default Categories
+- Tablet
+- Syrup
+- Capsule
+- Ointment
+- Injection
+- Drops
+- Inhaler
+- Cream
+- Gel
+- Powder
 
-Capsule
+## 📊 Features in Detail
 
-Ointment
+### Dashboard
+- Total medicines count
+- Stock value in ₹
+- Today's sales
+- Expiring soon alerts
+- Low stock alerts
+- Expired medicines count
 
-Injection
+### Medicine Management
+- Complete CRUD operations
+- Category-based organization
+- Batch number tracking
+- Expiry date validation
+- Low stock threshold setting
 
-Drops
+### Sales & Transactions
+- Complete sales recording
+- Customer information tracking
+- Stock movement history
+- Financial reporting
 
-Inhaler
+### Alerts System
+- Visual status indicators
+- Color-coded badges
+- Modal notifications
+- Dashboard summaries
 
-Cream
+## 🐛 Troubleshooting
 
-Gel
+### Common Issues
 
-Powder
-
-📊 Features in Detail
-Dashboard
-Total medicines count
-
-Stock value in ₹
-
-Today's sales
-
-Expiring soon alerts
-
-Low stock alerts
-
-Expired medicines count
-
-Medicine Management
-Complete CRUD operations
-
-Category-based organization
-
-Batch number tracking
-
-Expiry date validation
-
-Low stock threshold setting
-
-Sales & Transactions
-Complete sales recording
-
-Customer information tracking
-
-Stock movement history
-
-Financial reporting
-
-Alerts System
-Visual status indicators
-
-Color-coded badges
-
-Modal notifications
-
-Dashboard summaries
-
-🐛 Troubleshooting
-Common Issues
-Database errors after updates
-
-bash
+**Database errors after updates**
+```bash
 # Reset the database
 python reset_db.py
-Module not found errors
+```
 
-bash
+**Module not found errors**
+```bash
 # Reinstall dependencies
 pip install -r requirements.txt
-Port already in use
+```
 
-bash
+**Port already in use**
+```bash
 # Use different port
 python app.py --port 5001
-Reset Database
-bash
+```
+
+### Reset Database
+```bash
 # Delete existing database and create new
 python reset_with_sample.py
-🤝 Contributing
-Fork the repository
+```
 
-Create a feature branch (git checkout -b feature/AmazingFeature)
+## 🤝 Contributing
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Push to the branch (git push origin feature/AmazingFeature)
+## 📝 License
 
-Open a Pull Request
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 👥 Authors
 
-👥 Authors
-Your Name - GitHub Profile
+- Your Name - [GitHub Profile](https://github.com/yourusername)
 
-🙏 Acknowledgments
-Flask community for excellent documentation
+## 🙏 Acknowledgments
 
-Bootstrap for responsive UI components
+- Flask community for excellent documentation
+- Bootstrap for responsive UI components
+- Font Awesome for icons
+- SQLAlchemy for ORM capabilities
 
-Font Awesome for icons
+## 📞 Support
 
-SQLAlchemy for ORM capabilities
-
-📞 Support
 If you have any questions or issues, please open an issue on GitHub or contact your-email@example.com
+
+---
+
+⭐ **Star this repository if you find it helpful!**
