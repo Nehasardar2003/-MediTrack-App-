@@ -122,6 +122,42 @@ medicine-expiry-tracker/
 
 ## 🗄️ Database Schema
 
++-------------+       +--------------+       +-----------------+
+|    USER     |       |   MEDICINE   |       | EXPIRED_MEDICINE |
++-------------+       +--------------+       +-----------------+
+| id (PK)     |1    M | id (PK)      |1    1 | id (PK)         |
+| username UK |:::::::>| name        |:::::::>| medicine_id (FK)|
+| email UK    |       | batch_number |       | user_id (FK)    |
+| password_hash|       | category     |       | name           |
+| created_at  |       | quantity     |       | batch_number    |
++-------------+       | price        |       | category        |
+       |1             | expiry_date  |       | quantity        |
+       |              | low_stock_alert|     | price          |
+       |M             | created_at   |       | expiry_date     |
++-----------------+   | user_id (FK) |       | original_value  |
+|   TRANSACTION   |   +--------------+       | expired_at      |
++-----------------+           |1             +-----------------+
+| id (PK)         |           |
+| medicine_id (FK)|          M|
+| user_id (FK)    |   +-------------+
+| transaction_type|   |    SALE     |
+| quantity        |   +-------------+
+| transaction_date|   | id (PK)     |
+| notes           |   | medicine_id (FK)|
++-----------------+   | user_id (FK)|
+       |              | quantity    |
+       |              | sale_price  |
+       |              | total_amount|
+       |              | customer_name|
+       |              | sale_date   |
+       |              | notes       |
+       +--------------+-------------+
+
+Legend:
+PK = Primary Key    UK = Unique Key     FK = Foreign Key
+NN = Not Null       M = Many           1 = One
+::> = Relationship  --> = Connection
+
 ### Entities:
 - **User**: User accounts and authentication
 - **Medicine**: Medicine inventory with categories
