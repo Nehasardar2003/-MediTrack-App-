@@ -121,7 +121,7 @@ medicine-expiry-tracker/
 ```
 
 ## 🗄️ Database Schema
-bash```
+```bash
 +-------------+       +--------------+       +-----------------+
 |    USER     |       |   MEDICINE   |       | EXPIRED_MEDICINE |
 +-------------+       +--------------+       +-----------------+
