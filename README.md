@@ -121,7 +121,7 @@ medicine-expiry-tracker/
 ```
 
 ## 🗄️ Database Schema
-
+bash```
 +-------------+       +--------------+       +-----------------+
 |    USER     |       |   MEDICINE   |       | EXPIRED_MEDICINE |
 +-------------+       +--------------+       +-----------------+
@@ -157,6 +157,7 @@ Legend:
 PK = Primary Key    UK = Unique Key     FK = Foreign Key
 NN = Not Null       M = Many           1 = One
 ::> = Relationship  --> = Connection
+```
 
 ### Entities:
 - **User**: User accounts and authentication
